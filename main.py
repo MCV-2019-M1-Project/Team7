@@ -169,7 +169,7 @@ print("*************************************************************************
 #Convertir idx a list of lists
 matrix_retrieval_lst = matrix_retrieval.tolist()
 
-with open('./gt_corresps.pkl', 'rb') as fd:
+with open(queryFolder+'/gt_corresps.pkl', 'rb') as fd:
         ll = pickle.load(fd)
         # print(ll)
 gt = np.empty((0,0))
@@ -272,7 +272,7 @@ for filename in sorted(listdir(query2folder)):
         
         mask_pred = markersres.astype('uint8')
 
-        cv2.imwrite(filename[0:-3]+'png',mask_pred*255)
+        # cv2.imwrite(filename[0:-3]+'png',mask_pred*255)
 
         mask_gt_pixel = np.concatenate((mask_gt_pixel,mask_gt.flatten()), axis=0)
         mask_pred_pixel = np.concatenate((mask_pred_pixel, mask_pred.flatten()), axis=0)
@@ -334,7 +334,7 @@ matrix_retrieval_lst = matrix_retrieval.tolist()
 #print(matrix_retrieval_lst)
 
 
-with open('./qsd2_w1/gt_corresps.pkl', 'rb') as fd:
+with open(query2folder + '/gt_corresps.pkl', 'rb') as fd:
         ll = pickle.load(fd)
         # print(ll)
 
