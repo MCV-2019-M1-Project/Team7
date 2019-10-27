@@ -6,3 +6,11 @@ qsd1_w2/*
 qsd2_w2/*
 bbdd/*
 image1.jpg
+bbdd_text/*
+denoising_qsd1_w3/*
+qsd1_w3/*
+qsd1_w3_denoise/*
+qsd2_w3/*
+qsd2_w3_denoise/*
+qst1_w3_text.pkl
+result_qsd2.pkl
