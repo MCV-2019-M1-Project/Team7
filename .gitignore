@@ -4,6 +4,11 @@ qsd1_w1/*
 qsd2_w1/*
 qsd1_w2/*
 qsd2_w2/*
+qsd1_w4/*
+qsd1_w4_denoise/*
+qst1_w3/*
+qst2_w3/*
+masks_qd/*
 bbdd/*
 image1.jpg
 bbdd_text/*
