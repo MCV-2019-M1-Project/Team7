@@ -24,3 +24,4 @@ src/__pycache__/*
 src/masks_qd/*
 src/qsd1_w5/*
 src/rooms/*
+src/.idea/*
