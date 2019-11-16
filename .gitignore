@@ -19,3 +19,8 @@ qsd2_w3/*
 qsd2_w3_denoise/*
 qst1_w3_text.pkl
 result_qsd2.pkl
+qsd1_w5/
+src/__pycache__/*
+src/masks_qd/*
+src/qsd1_w5/*
+src/rooms/*
